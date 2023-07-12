@@ -26,9 +26,10 @@
 .homecard2 {
     background-image: url('https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/moon-bg.png');
     background-size: cover;
-    margin: 30px;
+    margin: 20px 10vw 20px 25vw;
     padding: 80px;
     height: 50vh;
+    width: 50vw;
     text-align: center;
     border-radius: 10px;
 
@@ -57,7 +58,8 @@
 
 .image {
     height: 45vh;
-    width: 100vw;
+    width: 40vw;
+    margin: auto 10px;
 }
 
 .font {
@@ -66,10 +68,30 @@
 
 .imagecard {
     margin: 5px;
-    width: 30vw;
+    width: 20vw;
     height: 20vh;
 }
 
 .margin {
     margin: 15px;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .image {
+        height: 45vh;
+        width: 100vw;
+    }
+
+    .homecard2 {
+        background-image: url('https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/moon-bg.png');
+        background-size: cover;
+        margin: 30px;
+        padding: 80px;
+        height: 50vh;
+        width: 80vw;
+        text-align: center;
+        border-radius: 10px;
+
+    }
 }
